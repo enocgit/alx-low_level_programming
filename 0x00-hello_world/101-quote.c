@@ -6,7 +6,7 @@ int main(void)
   const size_t clause_len = sizeof(clause) - 1;
   ssize_t write_to = write(2, clause, clause_len);
 
-  if (write_to != clause_len) {
+  if (write_to != (ssize_t)clause_len) {
     return 1;
   }
 
