@@ -1,15 +1,15 @@
-#include <stdio.h>
 #include <unistd.h>
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
-*/
-int main(void){
-  char clause[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-  size_t clause_length = sizeof(clause) - 1;
-  ssize_t write_to = write(2, clause, clause_length);
+int main(void)
+{
+  const char clause[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+  const size_t clause_len = sizeof(clause) - 1;
+  ssize_t write_to = write(2, clause, clause_len);
 
-  return (1);
+  if (write_to != clause_len) {
+    return 1;
+  }
+
+  return 0;
 }
+
