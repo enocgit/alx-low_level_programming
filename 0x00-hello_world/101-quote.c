@@ -12,7 +12,7 @@ int main(void)
 	ssize_t write_to = write(2, clause, clause_len);
 
 	if (write_to != (ssize_t)clause_len)
-		return (1)
+		return (1);
 
 	return (0);
 }
