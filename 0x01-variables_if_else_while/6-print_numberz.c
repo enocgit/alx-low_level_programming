@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Sucess)
  */
 
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 
 	while (startint < endint)
 	{
-		printf("%d", startint);
+		putchar((char) (startint + '0'));
 		startint++;
 	}
 
