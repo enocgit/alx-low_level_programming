@@ -7,9 +7,7 @@
  */
 int main(void)
 {
-	const char clause[];
-
-	clause[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	const char clause[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
 	const size_t clause_len = sizeof(clause) - 1;
 
