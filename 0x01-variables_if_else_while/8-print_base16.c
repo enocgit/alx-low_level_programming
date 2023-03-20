@@ -19,7 +19,7 @@ int main(void)
 		putchar(num + count);
 		count++;
 	}
-	while (letter < 'f')
+	while (letter < 'g')
 	{
 		putchar(letter);
 		letter++;
