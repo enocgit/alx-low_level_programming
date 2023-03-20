@@ -12,14 +12,14 @@ int main(void)
 
 	char num = '0';
 
-	for (int i = 0; i < 10 i++)
+	for (int i = 0; i < 10; i++)
 	{
 		putchar(num + i);
 	}
-	while (i < 'f')
+	while (letter < 'f')
 	{
-		putchar(i);
-		num++;
+		putchar(letter);
+		letter++;
 	}
 
 	putchar('\n');
