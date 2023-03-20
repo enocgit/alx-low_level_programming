@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+ * main - Entry Point
+ *
+ * Return: Always 0 (Sucess)
+ */
+
+int main(void)
+{
+	int num = 0;
+
+	int count = 0;
+
+	while (num < 10)
+	{
+		putchar((char) num + count);
+		putchar(',');
+		putchar(' ');
+		count++;
+	}
+
+	return (0);
+}
