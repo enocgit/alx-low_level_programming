@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * prints_alphabet - prints all alphabet
+ * print_alphabet - prints alphabet
  *
- * Always: Return 0 (Success)
+ * Description: prints all characters in alphabet in ascending order
  */
 
 void print_alphabet(void)
