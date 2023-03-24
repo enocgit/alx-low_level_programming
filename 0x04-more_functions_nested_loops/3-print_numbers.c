@@ -11,7 +11,7 @@ void print_numbers(void)
 {
 	int num = 0;
 
-	while (0 <= 9)
+	while (num <= 9)
 	{
 		char numchar = num + '0';
 
