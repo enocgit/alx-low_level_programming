@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * print_square - print to stdout
+ *
+ * @size: member
+ * Description: print pound symbol to stdout
+ */
+
+void print_square(int size)
+{
+	int num = 0;
+
+	for (int num = 0; num < size; num++)
+	{
+		_putchar('#');
+	}
+	_putchar('\n');
+}
