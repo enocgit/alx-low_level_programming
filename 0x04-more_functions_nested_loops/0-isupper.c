@@ -4,8 +4,10 @@
 
 /**
  * _isupper - checks for a match
+ * @c: member
  *
- * description: checks for is uppercase char
+ * Description: Checks for is uppercase char
+ * Return: 1 or 0
  */
 
 int _isupper(int c)
